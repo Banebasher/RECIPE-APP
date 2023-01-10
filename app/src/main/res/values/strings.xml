@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="api_key">4acd5d4335f44f40b2e428fac75a7b9f</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="men_drawer_open">Drawer Open</string>
+    <string name="men_drawer_close">Drawer Close</string>
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilepagerecipeasplach"
+    tools:context=".AboutPage">
+
+    <TextView
+        android:id="@+id/recipeparadise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECIPEPARADISE"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/recipeparadise"
+        android:text="Version 1"
+        android:layout_marginTop="135dp"
+
+        />
+    <TextView
+        android:id="@+id/description"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipeparadise"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        android:text="RECIPEPARADISE is a application that helps users to try new and exciting recipes and pursue their interest in cooking. By providing simple and comprehensive instructions as well as ingredients to create recipes that have never been tried before."
+        android:textStyle="italic"/>
+
+</RelativeLayout>
